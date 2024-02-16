@@ -12,6 +12,7 @@ function startOver(){
     started=false;
     level=0;
     gamePattern=[];
+    $("button").removeClass("remove")
 }
 
 function checkAnswer(currentLevel){
