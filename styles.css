@@ -51,3 +51,26 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #FFD700; /* Gold border */
+    border-radius: 8px;
+    background-color: #FFD700; /* Gold background */
+    color: #000000; /* Black text */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+div{
+  user-select: none;
+}
+
+.remove{
+  opacity: 0;
+}

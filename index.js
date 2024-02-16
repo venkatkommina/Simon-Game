@@ -43,6 +43,15 @@ $(document).keydown(function() {
   }
 });
 
+$("button").click(function() {
+    if (!started) {
+      $("#level-title").text("Level " + level);
+      nextSequence();
+      started = true;
+    }
+    $("button").addClass("remove")
+  });
+
 $(".btn").click(function(){
     let userChosenColour=$(this).attr("id");
     userChosenPattern.push(userChosenColour);
